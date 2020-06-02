@@ -31,7 +31,7 @@ function drawMeter(c,amount,bk,fg,progress,prog){
 	ctx.beginPath();
 	ctx.strokeStyle=bk;
 	ctx.lineWidth=12*sizScale;
-	ctx.arc(c.width/2,c.height-20*sizScale,c.height/1.8-ctx.lineWidth,-Math.PI*1.1,Math.PI*0.1);
+	ctx.arc(c.width/2,c.height-58*sizScale,c.height/1.6-ctx.lineWidth,-Math.PI*1.1,Math.PI*0.1);
 	ctx.stroke();
 	ctx.beginPath();
 	ctx.strokeStyle=fg;
