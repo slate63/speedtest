@@ -295,8 +295,6 @@ function initUI(){
 				<div id="jitText" class="meterText" style="color:#AA6060"></div>
 				<div class="unit">ms</div>
 			</div>
-		</div>
-		<div class="testGroup">
 			<div class="testArea">
 				<div class="testName">Download</div>
 				<canvas id="dlMeter" class="meter"></canvas>
