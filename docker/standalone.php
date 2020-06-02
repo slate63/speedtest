@@ -21,7 +21,7 @@ function drawMeter(c,amount,bk,fg,progress,prog){
 	var ctx=c.getContext("2d");
 	var dp=window.devicePixelRatio||1;
 	var cw=c.clientWidth*dp, ch=c.clientHeight*dp;
-	var sizScale=ch*0.0055;
+	var sizScale=ch*0.0044;
 	if(c.width==cw&&c.height==ch){
 		ctx.clearRect(0,0,cw,ch);
 	}else{
