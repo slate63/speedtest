@@ -159,8 +159,8 @@ function initUI(){
 	}
 	div.testArea{
 		display:inline-block;
-		width:14em;
-		height:9em;
+		width:16em;
+		height:12.5em;
 		position:relative;
 		box-sizing:border-box;
 	}
