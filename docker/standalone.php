@@ -21,7 +21,7 @@ function drawMeter(c,amount,bk,fg,progress,prog){
 	var ctx=c.getContext("2d");
 	var dp=window.devicePixelRatio||1;
 	var cw=c.clientWidth*dp, ch=c.clientHeight*dp;
-	var sizScale=ch*0.0044;
+	var sizScale=ch*0.0065;
 	if(c.width==cw&&c.height==ch){
 		ctx.clearRect(0,0,cw,ch);
 	}else{
@@ -31,7 +31,7 @@ function drawMeter(c,amount,bk,fg,progress,prog){
 	ctx.beginPath();
 	ctx.strokeStyle=bk;
 	ctx.lineWidth=12*sizScale;
-	ctx.arc(c.width/2,c.height-58*sizScale,c.height/1.8-ctx.lineWidth,-Math.PI*1.1,Math.PI*0.1);
+	ctx.arc(c.width/2,c.height-20*sizScale,c.height/1.8-ctx.lineWidth,-Math.PI*1.1,Math.PI*0.1);
 	ctx.stroke();
 	ctx.beginPath();
 	ctx.strokeStyle=fg;
