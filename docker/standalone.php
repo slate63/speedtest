@@ -172,7 +172,7 @@ function I(id){return document.getElementById(id);}
 </style>
 </head>
 <body>
-<h1>LibreSpeed Example</h1>
+<h1>Speedtest Internal</h1>
 <div id="startStopBtn" onclick="startStop()"></div>
 <div id="test">
     <div id="progressBar"><div id="progress"></div></div>
@@ -204,7 +204,6 @@ function I(id){return document.getElementById(id);}
 		IP Address: <span id="ip"></span>
 	</div>
 </div>
-<a href="https://github.com/librespeed/speedtest">Source code</a>
 <script type="text/javascript">
     initUI();
 </script>
