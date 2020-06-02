@@ -8,7 +8,6 @@
 <script type="text/javascript" src="speedtest.js"></script>
 <script type="text/javascript">
 
-
 //INITIALIZE SPEEDTEST
 var s=new Speedtest(); //create speedtest object
 s.onupdate=function(data){ //callback to update data in UI
